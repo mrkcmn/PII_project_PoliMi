@@ -1,0 +1,174 @@
+ID_Paper,Testo_Linea_Guida,Topic
+00001,Adaptation of the voice command grammar to the person’s preferences.,Inclusive and efficient communication and personalization
+00001,"A feedback strategy based on light or sound indicating whether the system is processing the request or not might decrease this feeling (of non-responsiveness of the system). In any case, the feedback strategy should be adapted to the abilities of the user (e.g., hard of hearing, low vision) and the context of interaction",System status
+00001,Choosing grammar so that the phonetized possible sentences are as distant from each other as possible,Error prevention and recovery
+00002,keep output messages or instructions as short as possible. The messages are courteous but hold at most one item of information or ask for only one item of data.,Inclusive and efficient communication and personalization
+00002,provide context sensitive help and instructions to help the older adult to use the dialogue,Help and documentation
+00002,Defaults and confirmatory sentences provide positive reinforcements,System status
+00003,"C) Length and number of keywords per sentence: blind users of VAPA (Voice-activated-personal-assistants)s may be able to interpret and recall prolonged voice responses with more keywords and list items, while using minimal turns.
+I) Allow Preferences to Be Defined On-the-fly. we recommend that the length of conversational turns be customizable according to user preference. We can imagine scenarios in which it may be most convenient to make in-line requests for more or less verbose interaction",Inclusive and efficient communication and personalization
+00003,"C) accomodating different complexity levels in command: theinflexible timeout feature conflicts with this when users have certain disabilities 
+I) Allow Custom Voice Commands to be Defined in Advance: Guidelines tended to discourage support for high complexity of commands in favor of more conversational language without need for command memorization. However, prior work suggests that blind users may prefer to accomplish more complex task.we can also imagine using such a feature to define more memorable or pronounceable commands for children or people with intellectual disabilities, cognitive impairments, or speech impediments",User control and freedom
+00003,"C) Conversation speed: blind people can understand up to 25 syllables per second
+I) Allow Preferences to be Defined in Advance (for speed). We can imagine a feature that supports a universal, customizable speech rate",Inclusive and efficient communication and personalization
+00004,"Learning content, goal clarity, interactivity, gamification, conversational prompts, feedback, scaffolding.",System status
+00004,Conversational prompts: . A good conversational prompt should invite thoughtful responses from the child and move conversation forward,Mapping between system and language conventions
+00004,"feedback: feedback was broadly defined and refers to how the app followed up after children’s responses. Responsive feedback that temporally and semantically continues the conversation is fundamental for promoting children’s learning. Elaborative feedback may contain multiple components, including praise, extension of children’s responses, explanation of the question, or a further question that provokes deeper thinkin.",System status
+00004,"Scaffolding: Scaffolding refers to the steps taken to reduce the degrees of freedom in carrying out some task, so that the child can concentrate on the difficult skill he is in the process of acquiring. Scaffolding features from the CAs themselves should be provided to help children avoid communication breakdowns resulting from CAs’ misinterpretation of their speech",Help and documentation
+00004,Encourage less-restricted verbal expressions,Inclusive and efficient communication and personalization
+00004,Provide elaborative feedback,System status
+00004,"Provide scaffolding to support conversation. We propose that future apps provide conversational scaffolding, which may adjust the conversation based on the child’s responses. For example, an app could rephrase the prompt with more accessible language if a child has difficulty responding to the prompt",Help and documentation
+00004,"Introduce a break-down prevention mechanism: in the cases where children fail to respond to the scaffolding prompts, the apps could provide a default fallback response to keep the app going",Error prevention and recovery
+00005,include consistency of specific keyword: inconsistent voice commands affect the overall learnability and usability of using the VUI.,System status
+00005,"improve cognitive accessibility by confirming user input: if user forgets to say the “exact” keywords, the assistant should predict the input request and verify it from the user and by incorporating contextual cues (e.g., location of the user, recently asked requests by the user) into the conversation design where possible",System status
+00005,"expand feedback beyond predefined responses (I don't understand ecc) when the system fails to perform the requested task (e.g., answer a question), it should provide more specific feedback that can aid troubleshooting",Error prevention and recovery
+00006,"Support sequence expansions and command queues: performing a single command multiple times like """"again"""" or chaining in one utterance multiple commands",User control and freedom
+00006,Support Iterative Refinements of Commands: Users often need multiple tries to find the intended navigation target. Support for descriptive commands and keyword search in transcripts.,Error prevention and recovery
+00006,"Support Interactions with User Context: Designing voice commands for how-to videos is not about supporting a single command, but understanding the higher level user intent behind the utterance is crucial (Pause, reference jump, skip, replay...). One possible solution in distinguishing them is to set up the command vocabulary such that each intent has its unique keyword.",System status
+00007,Personalisation: The system should be customisable for the individual user,Inclusive and efficient communication and personalization
+00007,Error Prevention: Errors and communication breakdowns can be avoided by guiding the user to attain objectives quickly while interacting with the system. The dialogue control should be passed to the system whenever it is recognised that the user has difficulties.,Inclusive and efficient communication and personalization
+00007,Adaptivity: The system should be capable of adapting to changes in the cognitive abilities of the user. the system should always strive to help to the least necessary extent by breaking down complex instructions based on the users needs. The level of assistance can be initialised based on the stage of dementia of the user and can later be adjusted based on task-performance,User control and freedom
+00007,Cooperativeness: For the cooperation with the user the system needs to track the user's progress while executing a task by asking about his/her progress during task execution,User control and freedom
+00007,"Reactivity: The system should have a reactive interaction style, as a proactive voice assistant can be perceived as demeaning and patronising",User control and freedom
+00007,Simplicity & Clarity: Complex instructions should be broken down into simple and short prompts with low complexity,System status
+00007,Minimisation of Memory Load: The cognitive effort to use the VUI should be minimised as far as possible through clear user guidance during dialogue management,System status
+00007,Interaction Modality: A female voice and a personalised name - presented during the systems introduction - seem to be favourable. The system's responses should be additionally delivered in a text format to ensure multi-modality,System status
+00007,Autonomy: The system should react autonomously to user requests and provide solutions in case of the occurrence of communication problems,Error prevention and recovery
+00007,"Privacy: Especially in nursing homes and public buildings, the system should give a clear indication when audio input is being processed and transmitted to external servers. The activation and deactivation of the listening function of the system should be easily possible for the user.",Error prevention and recovery
+00007,"Immediate Feedback: Feedback should be given to the user on three levels. On the hardware level – indicating if the user input was successful, on the sequence level – indicating that a language command was accepted, and on the functional level – indicating that the system is working on the problem",Error prevention and recovery
+00008,"Adapt to the user’s preferred interaction style: factual users that adapt to a concise and fixed style of communication and social users, that struggle to follow a single pattern and are more likely to use synonyms for simple answers. In terms of dialog management and language generation, our usability results suggest that “social” users expect the system to adapt to their interaction style. This may mean that system prompts and messages need to be more polite and that the system may well beneﬁt from adding appropriate social dialog acts. Note that such changes could be counter-productive for “factual” users, who value efﬁciency highly.",Mapping between system and language conventions
+00008,We hypothesize that a mixed-initiative approach would lead to higher efficiency and greater user satisfaction for this user group (social users). Mixed-initiative system that is tested with older users should also include system-initiative dialogs because these are a useful fall-back strategy for error recovery,Error prevention and recovery
+00008,"Manage different communication styles: The NLU module will require adequate strategies for identifying and discarding irrelevant material. Useful strategies include using task-specific help prompts early on in the dialog improving problem detection, and better error recovery.",Inclusive and efficient communication and personalization
+00009,Recommendation 1: Distinguish between data collected under different legal bases.,Trustworthiness and privacy
+00009,Recommendation 2: Make clear upfront when data sharing is a precondition of service.,Trustworthiness and privacy
+00009,Recommendation 3: Utilise approaches such as social norms to reduce the number of consent decisions users must make,Trustworthiness and privacy
+00009,Recommendation 4: Give third parties greater scope to consent on behalf of users.,Trustworthiness and privacy
+00009,Recommendation 5: Provide voice commands to withdraw consent,User control and freedom
+00009,Recommendation 6: Hold platforms accountable for hosted skills,Trustworthiness and privacy
+00010,DG1: Offer older adults increased agency over their interactions by highlighting features and offering suggestions that encourage progressivity.,User control and freedom
+00010,DG2: Provide older adults with personalization options that might customize their interactions and learning to their own unique needs.,Inclusive and efficient communication and personalization
+00010,"DG3: Provide sufficient information about the source, timeliness, and reputability of the health-related information to establish credibility and trust.",Trustworthiness and privacy
+00010,DG4: Create a system persona that projects compassion by delivering health information in a responsible and caring manner.,Mapping between system and language conventions
+00011,"No guidance, but questions to take into account when designing for accessibility",Help and documentation
+00012,high level of personalization is required in order to better adapt to diferent games and diverse user needs and abilities.,Inclusive and efficient communication and personalization
+00012,prolonged vocal interactions needs to be limited in number and duration.,System status
+00013,"1 strategies to mitigate the cognitive challenges of the user, such as having CAs repeat the commands and use familiar words.",System status
+00013,"2 the CA could provide personalized support to help the user understand and adapt to changes. For example, the CA could guide the user in accessing their frequently used features after system updates and proactively check up with users if they spend a long time searching for features.",System status
+00013,"3 CA systems would need to provide clear explanations for interaction failures and actionable steps for the user to recover from them.
+",Error prevention and recovery
+00013,"4 CA systems should avoid quitting without any information, which can confuse users and cause frustration.",Error prevention and recovery
+00013,5 CAs will need to be transparent about their knowledge and capabilities.,Error prevention and recovery
+00013,6 It will be necessary to avoid pretending to empathize or feel human emotions.,Error prevention and recovery
+00013,"7 Provide the option for the user to personalize the conversational style of the CA,",Error prevention and recovery
+00013,"8 CAs will need to accommodate the unique communication needs and patterns of users with TBI: provide a longer listening time during turn-taking interactions,
+",Inclusive and efficient communication and personalization
+00013,9 CAs could provide word suggestions if the user has difficulty phrasing questions and could repeat the questions if the user does not reply in time.,Inclusive and efficient communication and personalization
+00013,"10 CAs could offer a wider range of voice options for the user to choose from.
+",Inclusive and efficient communication and personalization
+00013,"11 allow users to change the tone, pitch, and speed of the CA's voice for more granular personalization.",Inclusive and efficient communication and personalization
+00013,"12 personalization must include the specific use cases of the CA, such as the narrator's voice for an audiobook or calming sounds for meditation, carrying sound features across different features and applications.",Inclusive and efficient communication and personalization
+00014,Contextualized Help the help content should revolve around actions that are available and relevant in the current context rather than general information. actions should be executable from within the help material rather than having additional steps to recall commands after exiting,Help and documentation
+00014,"Assimilation Bias The design of any M-VUI should take into consideration how the experience with conversational voice agents will affect user’s expectations, behaviors, and ultimately satisfaction with a new application",System status
+00014,Designing M-VUIs for Limited Visual Attention M-VUI interface design should take a minimal design approach respecting the limited screen space and be considerate not to overload user's visual attention span,System status
+00014,Training in Context M-VUI initial training should seek a balance in introducing users to interaction by providing a brief overview then shifting learning into use context. Discovery-based learning seems to be a promising technique but a variety of approaches how to implement it effectively need to be explored.,Help and documentation
+00015,Providing Relevant Output and Control of Output Control should be afforded to allow users to customize the output (level of succintness or detail needed),User control and freedom
+00015,"Supporting Voice Interaction VAPA (Voice-activated-personal-assistants)s should better react to longer, more complex commands, as performing these using voice input offers a simpler alternative to input",User control and freedom
+00015,"Supporting Access to Third Party Devices , VAPA (Voice-activated-personal-assistants)s may be the only form of technology that allows individuals who are blind to remain independent when devices are inaccessible",Inclusive and efficient communication and personalization
+00015,"Accounting for Privacy and Situational Factors providing “whisper” or “discreet” modes where personal details are either presented more quietly or are masked, may provide the privacy necessary for users.",Trustworthiness and privacy
+00015,"Fostering Trust in VAPA (Voice-activated-personal-assistants)s Additional feedback could offer promise to individuals who are blind, once certain types of complex commands are performed, as this may help to alleviate concerns about whether these were performed correctly",System status
+00015,"Greater Understanding of User Needs To gain a greater understanding of the needs of individuals who are blind, participatory design with target populations may offer one method of helping to design VAPA (Voice-activated-personal-assistants) technologies which match user needs and abilities",Inclusive and efficient communication and personalization
+00016,Employ conversational cues to support engagement.,Mapping between system and language conventions
+00016,Avoid requiring users to guess the meaning of terms and response options: we recommend keeping questions simple and providing the meaning of complex terms in order to avoid requiring users to guess the meaning of terms and response options.,System status
+00016,"‘Help’ proactively: A questionnaire designed to elicit discrete responses might incorporate the expected response format into each question as suffix or prefix,",Help and documentation
+00016,"Exploit CAs’ interactivity to elicit richer and more complete responses a CA can be designed to gather discrete and open-ended responses which, in combination, provide a more complete picture of users’ experience, spanning multiple levels of complexity and detail",User control and freedom
+00017,"Overcoming Ambiguous Information Input and Output: One solution that can alleviate ambiguous information and misinterpretations is to design voice-first interfaces (and not voice-only interfaces), where alternative input-output modalities, e.g., touch screen, is also available to receive more explicit input",Error prevention and recovery
+00017,"personalization: importance of considering the difference between those in their seventies who do not have significant medical issues, and those in their eighties and beyond who start having problems with ability and memor",Inclusive and efficient communication and personalization
+00018,(1) offering a more “transactional” model. Examples include choosing different modes of operation and filtering the information provided or using short commands,User control and freedom
+00018,"(2) allowing usage of different modalities over the course of the interaction; users should be able to choose from different modalities such as spoken output, earcons, or vibrations to receive responses/notifications offered by the assistant",Inclusive and efficient communication and personalization
+00018,"(3) giving more control to the users for customization based on their personal preference and needs. Changing their settings such as the name of the assistant or its speech output settings like voice, speed, and verbosity of the responses/notifications. allow the users control other parameters such as types of queries, modality of feedback depending on different contexts, and verbosity of communication.",User control and freedom
+00019,"we suggest that CAs actively adjust their speech rates according to the context, while maintaining the humanness.",Inclusive and efficient communication and personalization
+00020,"Lowering and increasing an interface's status in relation to the user can help personalize interactions to users’ needs in real-time.: we can design Alexa to lower and raise its own status in a timely manner. For example, Alexa might be designed to invite users to teach it things that it does not know,",Inclusive and efficient communication and personalization
+00020,"Conversational qualities increase expectations of an interface's ability to respond to ambiguity, creating a need to balance these expectations against functional capabilities. VFAIs must either support these type of open-ended, ambiguous interactions, or reduce expectations via their design",Mapping between system and language conventions
+00020,Type and level of companionship should be dynamically personalized to a person's preferences and context.,Inclusive and efficient communication and personalization
+00020,Conveying how the technology works is necessary to avoid limiting use.: The design of the interface must clearly convey this to prevent inaccurate mental models from limiting use.,System status
+00020,Different modalities need to support each other and communicate the same message to meet diverse needs,System status
+00020,"Alternative paths for VFAI error recognition and self-repair are needed to avoid excluding marginalized groups. In addition to training interfaces to support a wide range of speech patterns, alternative paths for VFAIs to recognize and repair conversational errors are needed—for example, alternative waking mechanisms such as body language or clapping could enable those unable to pronounce the wake word to still consistently interact",Error prevention and recovery
+00020,"Contextual cues, such as a user's choice of words, should inform the VFAI's own speech patterns Personalized word choice can increase accessibility for some, and can also create more efficient and useful interactions for others. VFAIs could be designed to automatically detect and adjust their auditory output (speaking slower or faster) based on contextual cues, and check in with users about what their preferences are when adjustments are made.",Inclusive and efficient communication and personalization
+00021,CA needs to Adapt to the Task and Context: different personalities based on tasks,Inclusive and efficient communication and personalization
+00021,"CA needs to Adapt to User's Behavior and Navigation Patterns: learn its user's behavior and tailor its own role and behavior accordingly.
+adapt to their personalities and moods, by learning their navigation patterns.
+CAs can be further adapted to them, such as recognizing personally relevant social media content, knowing their skimming patterns for frequently visited websites",Mapping between system and language conventions
+00021,"CA needs to be Customizable like a Screen Reader: distinction between navigating and reading, wanting a faster rate when navigating. 
+Customizing visual semantic settings. 
+customize the order in which information is read, 
+very specific preferences for the CA's voice.",User control and freedom
+00021,"CAs Should Afford Different Levels of Control: We speak about three distinct levels of control, and speculate the trust that these CA affordances necessitate among its users: granular cursor control, screen representation, and task assistance.
+Granular control: they wanted to know where CANVAS was on a certain webpage. Participants generally expected command-and-response type conversation with their CAs,
+Affording Medium Control Over Representing On-Screen Content: some view summarization as a loss of user control. customize what summaries sounded like. “tag” different websites or sections as a way to indicate levels of detail
+Affording High Level Control for Task Assistance: participants expected CANVAS to carry out tasks that extended beyond cursor or page-level control",User control and freedom
+00021,Identity and Privacy Implications of Using CA in Public Settings: “type out instructions instead of speaking them,Trustworthiness and privacy
+00021,"Wanting CA to Describe Visual Imagery and Semantics. A conversational approach to image descriptions allowed users to “dig into” (Min) the details they care about. user wanted different levels of details, especially for different contexts",Inclusive and efficient communication and personalization
+00022,Incorporating auditory affordances,System status
+00022,Keeping interactions simple,System status
+00022,Providing a list of sample commands,Help and documentation
+00022,Accommodating longer response,Inclusive and efficient communication and personalization
+00022, Taking accountability for failed interactions,Error prevention and recovery
+00023,"Initial set up
+initial guidance, tutorial explanation on use of personal data",Help and documentation
+00023,"Before an interaction
+let users change the input and output interaction (speec or text)
+customization of commands
+avoidance of unrequested contact with the user
+provide alternatives to the conversational agent",User control and freedom
+00023,"during an interaction
+enabling natural communication
+precise recognition of user inputs
+forwarding to emploees
+ability to respond to a broad range of questions and provide further information
+giving immediate feedback
+technical robustness",System status
+00023,"after an interaction
+ability to learn and iprove from past conversations
+adjusting to user's preferences
+possibiity to unsubscribe from notifications
+providing a persistent record after confirmation",Inclusive and efficient communication and personalization
+00024,"Design Implication 1: Providing initial moments and scaffolded approaches to developing strategies for using VCAs VCA might support such exploration by scaffolding its capabilities, such as what it can and cannot do, as suggested by",Help and documentation
+00024,"Personalizing the conversation styles and experiences e.g., tone and personality. Control speech, voice, and persona traits to reflect features of their ideal and most natural conversation partner.",Inclusive and efficient communication and personalization
+00024,"System Guidance for mitigating improper requests or behaviors. (such as swaring or demaging the device) design elements should establish proper relationships with VCAs by devising systemic measures or guides. introduce human characteristics [15, 31] so that users can feel empathy for robots",Error prevention and recovery
+00025,"summarize Summarizing instructions as a whole, and particularly complex steps within them, would help users develop a sense of what the instructions entail and how to prepare for upcoming tasks. Furthermore, advanced users could use these summaries instead of the original steps if they do not need detailed guidance.",System status
+00025,Signpost Alerting users of time-sensitive steps can help them anticipate actions that need to be executed in parallel,System status
+00025,"Split. To avoid burdening users with information overload, voice assistants can reduce the amount of information in each step of the procedure. we suggest splitting complex steps so that each step contains one main action. Additional actions within the same step should be small or tightly related to it. Voice assistants may need to insert more pauses when an instructions contains many parts,",System status
+00025,"Elaborate Voice assistants should also ensure that they do not omit important information. Voice assistants should anticipate when additional details would benefit particular users, preferences, or levels of experience and provide them while delivering the instructions.",Inclusive and efficient communication and personalization
+00025,Volunteer Proactively volunteering information can help users anticipate the currently uncommunicated affordances of voice assistants (Sec. 4.9). Voice assistants can continue offering information about its affordances directly after a relevant interaction,Help and documentation
+00025,Reorder Instructions that depend on each other should be detected and stated far enough in advance that users can act upon them before too late,Error prevention and recovery
+00025,"Redistribute When information is fragmented across a written procedure, voice assistants should group it back together. Redistributing this information, even if that means repeating it, would help users access information in a modality that is hard to search through.",System status
+00025,"Visualize. Voice assistants can provide this information in two ways. First and foremost, voice assistants should verbalize visual representations. Multi-modal voice assistants can display an analogous visual on their screens after generating or querying for it",Inclusive and efficient communication and personalization
+00026,Support for Complex Commands Increases Efficiency.,User control and freedom
+00026,VAPA (Voice-activated-personal-assistants) designers could incorporate multiple conversational personas into each VAPA (Voice-activated-personal-assistants). Users may benefit from having access to several customizable VAPA (Voice-activated-personal-assistants) personas,Inclusive and efficient communication and personalization
+00026,"Designers should provide continuous voice-input/audio-output access to all VAPA features, including tutorials, help menus, personalization interfaces, search results, and input verification, for both accessibility and consistency.",System status
+00027,"Device Introduction. To make SAs more accessible, we suggest including customization features in the initial device setup procedures and call more attention to existing accessibility features from the beginning of use.",Help and documentation
+00027,"New Modalities. Based on participants’ responses, we suggest incorporating different interaction modalities in the design of future SAs, such as Bluetooth and audiogram-like features.",Inclusive and efficient communication and personalization
+00027,"Recalibrating Pitch. For DHH individuals, the comfortable pitch range can vary over time depending on hearing aid adjustments",Inclusive and efficient communication and personalization
+00027,"Discoverability and Visual Cues Participants also described difficulties in exploring and knowing about features and functionalities provided by 
+a SA",Help and documentation
+00028,Restate what was heard if the system fails to meet a confidence threshold.,Error prevention and recovery
+00028,"If a particular piece of context is needed but missing (e.g., year, identity of a particular pronoun), follow up requesting this information It may also be reasonable to make a “best guess” about missing information from previous questions or by assuming current location, year, etc.",Error prevention and recovery
+00028,"If a part of the question is known but the entire question is too complex, provide some information on what is known and request clarification for the rest",System status
+00028,"If a particular style of question is difficult for the system, clarify this and provide guidance (e.g., “Comparisons are hard for me. Can you ask about each part of your question separately?”)",Help and documentation
+00029,"Providing Trend Information Extending Basic Details.
+ the CUA should go beyond functional details like price or ratings and share socially meaningful information, such as seasonal colors or trending products.
+",Mapping between system and language conventions
+00029,"Conveying How Products Feel, Not Only How They Look. 
+the CUA should present not only physical information but also aesthetic expressions (e.g., mood, emotional impression).",Mapping between system and language conventions
+00029,"Providing Detailed Color Description and Color Matching. 
+he CUA should provide fine-grained descriptions (e.g., tone, texture, and shade) along with guidance on socially appropriate and well-matched color combinations, helping users make choices with confidence rather than anxiety about coordination.",Mapping between system and language conventions
+00029,"Limiting Delivered Information to Three at a Time. 
+the CUA should begin by recommending around three products and presenting only three key attributes (name, price, rating), while providing additional details only upon request or gradually introducing them through subsequent conversational turns.
+",System status
+00029,"Providing Concise Summaries of Reviews and Popularity Metrics. 
+the CUA should summarize recurring positive and negative opinions and concisely highlight major patterns.",System status
+00029,"Guiding Users Proactively, Not Just Reactively. 
+the CUA should act not as a reactive responder but as a proactive guide to help users articulate their preferences.
+",System status
+00029,"Double-Checking Selections to Prevent Errors. 
+the CUA should incorporate a step for reviewing the user’s selections. Importantly, such confirmation should be provided as a clear statement rather than phrased as a question.",System status
